@@ -21,7 +21,7 @@
         <button class="btn" id="subtract-btn" onclick="subtract()">-</button>
         <button class="btn" id="Multiply-btn" onclick="multiply()">X</button>
         <button class="btn" id="divide-btn" onclick="divide()">/</button>
-
+        <button class="btn" id="clear-btn" onclick="reset()">Reset</button>
         <p id="output"></p>
     </div>
 
@@ -51,6 +51,9 @@
         function divide(){
             let quotient = num1 / num2;
             p.textContent = "Quotient: " + quotient;
+        }
+        function reset(){
+            location.reload();
         }
     </script>
 </body>
