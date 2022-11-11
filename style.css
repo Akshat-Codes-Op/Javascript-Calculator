@@ -32,7 +32,7 @@ body{
     font-size: 30px;
 
 }
-#output{
+#output, #output2{
     margin-top: 20px;
     font-size: 40px;
 }
